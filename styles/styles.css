@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bg{
+    position: relative;
+    background:  linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(101,101,101,0.4) 35%, rgba(0,0,0,0.5) 100%), #fff url("../assets/glacier_goat.png") center center;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.link-ul {
+    text-decoration: underline;
+}
+
+.py-50px {
+    padding: 50px 0;
+}
+
+.text-md {
+    margin-top: 30%;
+}
+
+.text-large {
+    font-size: 3rem;
+}
+
+.text-huge {
+    font-size: 7rem;
+}
+
+.text-small {
+    font-size: 1rem;
+}
+
+.zoom {
+    transition: .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+#about{
+    height: 100vh;
+}
+
+#projects {
+    height: 100vh;
+}
+
+#contact {
+    height: 100vh;
+}
+
+p {
+    font-size: 24px;
+}
+
+/*Animation*/
+.fade-in {
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+  
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+  
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+  
+@-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
