@@ -30,6 +30,51 @@ html {
     font-size: 7rem;
 }
 
+@media screen and (max-width: 992px) {
+    .text-huge {
+        font-size: 5rem;
+    }
+    .text-large {
+        font-size: 2rem;
+    }
+    #about {
+        padding-left: 30px;
+    }
+    #projects {
+        padding-left: 35px;
+    }
+    #contact {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .text-huge {
+        font-size: 3rem;
+    }
+    .text-large {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem !important;
+    }
+    .py-50px {
+        padding: 0;
+    }
+    #home {
+        padding-top: 20px;
+    }
+    #about {
+        padding-left: 30px;
+    }
+    #projects {
+        padding-left: 35px;
+    }
+    #contact {
+        padding-left: 35px;
+    }
+}
+
 .text-small {
     font-size: 1rem;
 }
